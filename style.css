@@ -111,4 +111,44 @@ margin-left: 10%;
     font-size: 16px;
     letter-spacing: 0.05em;
 }
+#services{
+    width: 100%;
+    height: 100vh;
+    margin-top:0;
+}
+/* h1 services */
+.txtapp{
+    font-size: 32px;
+    margin-bottom: 5%;
+    font-weight: 400;
+
+}
+.S{
+    justify-content:center;
+    margin-top: 10%;
+}
+.nmb{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 7%;
+}
+span{
+    font-size: 176px;
+}
+/* affiche */
+.affiche{
+    width: 100%;
+    height: auto;
+}
+.img1{
+width: 242px;
+height: 243px;
+object-fit: cover;
+object-position: 50% 50%;
+}
+.textaff{
+    margin-top: 12%;
+    margin-bottom: 8%;
+}
+
 
