@@ -3,6 +3,9 @@
     margin:0;
     box-sizing: border-box;
 }
+:root{
+    color: rgb(var(--color_21));
+}
 body{
     overflow-x: hidden;
     color: black;
