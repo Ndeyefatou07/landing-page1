@@ -3,68 +3,57 @@
     margin:0;
     box-sizing: border-box;
 }
-:root{
-    color: rgb(var(--color_21));
-}
 body{
-    overflow-x: hidden;
+     
     color: black;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 10px;
     list-style: none;
     text-decoration: none;
-  }
 
+}
+/* hero */
+#hero{
+    width: 100%;
+    height: 110vh;
+    background-color: darksalmon;
+}
 /* TITRE1 */
 h1{
     font-weight: 600;
 }
-/* Section hero */
-#hero{
-    width: 100%;
-    height: 100vh;
-    /* background:url(./img/repas10.jpg); */
-    /* background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; */
-    background-color: darksalmon;
-
-}
 .profil h1{
     font-size:25px;
-}
+ }
 .profil h2{
     font-size:13px;
     font-weight: 300;
-
-}
-.header{
-    padding: 30px;
-    margin-bottom:10%
-}
-.fa-home{
-    
-    
- }
-.Accueil{
+} 
+.A{
     font-size: 15px;
     font-weight: 300; 
+    
 } 
-.navbar .Accueil:hover{
+.navbar .A:hover{
     color:white;
     font-weight: 100;
-}
-/* taile icons */
+} 
+
+/* tailles icons */
 .f,
- .t,
-  .y{
-    font-size: 17px;
-    
-  }
+.t,
+.y
+{
+font-size: 17px;
+cursor: pointer;
+}
+
   /*  */
+
 .hero-container{
-flex-direction: column;
-margin-left: 10%;
+margin-top: 10%;
+
+
 
   }
   .hero-container h1{
@@ -77,8 +66,8 @@ margin-left: 10%;
   }
   /* buton reserver */
 .Reserv{
-    width: 19%;
-    padding: 1rem 1rem;
+    
+    padding: 1rem 2rem;
     font-size: 0.85rem;
     border-radius: 16px;
     color: black;
@@ -86,7 +75,6 @@ margin-left: 10%;
 }
 .Reserv:hover{
     background-color: black;
-    font-weight: 300;
 
 }
 /* About */
@@ -95,6 +83,7 @@ margin-left: 10%;
     height:100vh;
     position:relative;
 }
+
 .Abouttext h1{
     font-size: 51px;
     line-height: 1.2em; 
@@ -120,21 +109,63 @@ margin-left: 10%;
 .txtapp{
     font-size: 32px;
     margin-bottom: 5%;
-    font-weight: 400;
+    font-weight: 600;
 
 }
-.S{
+.Rv{
+/* width: 17%; */
+padding: 1rem 1rem;
+font-size: 0.85rem;
+border-radius: 16px;
+    color: black;
+    font-weight: 300;
+}
+.Rv:hover{
+
+}
+/* .S{
     justify-content:center;
     margin-top: 10%;
-}
+} */
 .nmb{
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 7%;
+    margin-bottom: 7%; 
 }
-span{
+.pn1{
+    top: 1570px;
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+}
+.n1, .n2, .n3{
     font-size: 176px;
 }
+.rose-transparent {
+    color: rgba(255, 105, 180, 0.5) ;/* Rose transparent */
+    opacity: 1;
+  }
+  .mauve-transparent {
+    color: rgba(186, 85, 211, 0.5); /* Mauve transparent */
+  }
+  
+  .bleu-clair-transparent {
+    color: rgba(135, 206, 235, 0.5); /* Bleu clair transparent */
+  }
+  .text-overlay {
+    position: absolute;
+   font-size: 18px;
+    color:black;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-weight: bold;
+  }
+  .cn1{
+    position: relative;
+  }
+  
+
+
 /* affiche */
 .affiche{
     width: 100%;
@@ -144,11 +175,82 @@ span{
 width: 242px;
 height: 243px;
 object-fit: cover;
-object-position: 50% 50%;
+/* object-position: 50% 50%; */
 }
 .textaff{
-    margin-top: 12%;
+    /* margin-top: 10%; */
     margin-bottom: 8%;
 }
+/* temoignage */
+.temoignage{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer */
+.cl2{
+    background-color: darksalmon;
+}
+.EN{
+    background-color: darksalmon;
+    color: black;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    /* width: 200px; */
+    align-items: center;
+    border-radius: 12px;
+}
+.EN:hover{
+    background-color: transparent;
+    color: white;
 
-
+}
+.fr{
+    border:4px solid brown;
+    /* width: 400px; */
+    
+}
+.fr::placeholder {
+    color: gray;
+    
+}
+.c-carousel{
+    height: 520px;
+}
+.c-image{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+    
+}
+.h1-carousel{
+    color:white;
+    font-size: 30px;
+    margin-bottom: 7%;
+}
+.p-carousel{
+    font-size: 40px;
+    font-weight: 500;
+    color:white;
+    margin-bottom: 7%;
+}
+.p2-carousel{
+    color:white;
+    font-size: 20px;
+}
+.N{
+    font-weight: 700;
+}
+.h3-cl2{
+    color:black;
+}
+.LF{
+    height: 100vh;
+}
+.tf{
+    font-size: 20px;
+    font-weight: bold;
+}
