@@ -23,12 +23,7 @@ body{
     display: flex;
     /* align-items: center; */
 }
-.mx-9{
-    margin-left: 8rem !important;
-}
-.mx-8{
-    margin-right:   6rem !important;
-}
+
 /* TITRE1 */
 h1{
     font-weight: 600;
@@ -164,13 +159,13 @@ object-fit: cover;
     margin-bottom: 8%;
 }
 /* temoignage */
-.temoignage{
+/* .temoignage{
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 /* footer */
 .cl2{
     background-color: darksalmon;
@@ -238,7 +233,8 @@ object-fit: cover;
 }
 @media (min-width: 992px) {
     .mt-desktop {
-      margin-top: 300px; /* Ajoutez ici la valeur de marge souhaitée */
+      margin-top: 100px; /* Ajoutez ici la valeur de marge souhaitée */
+      margin-bottom: 10%;
     }
   }
   
