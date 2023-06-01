@@ -87,13 +87,7 @@ cursor: pointer;
     letter-spacing: 0.03em;
     font-family: montserrat,sans-serif;
 }
-.text-over {
-    position: absolute;
-    color: black;
-    margin-top: -129px;
-    margin-left: 29rem;
-  }
-  
+
  
 .Abouttext p{
     line-height: 1.5em;
@@ -247,4 +241,5 @@ object-fit: cover;
       margin-top: 300px; /* Ajoutez ici la valeur de marge souhaitée */
     }
   }
+  
   
