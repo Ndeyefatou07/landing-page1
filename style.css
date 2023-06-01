@@ -1,10 +1,9 @@
 *{
-    padding: O;
+    padding: 0;
     margin:0;
     box-sizing: border-box;
 }
 body{
-     
     color: black;
     font-family: Arial,Helvetica,sans-serif;
     font-size: 10px;
@@ -13,31 +12,41 @@ body{
 
 }
 /* hero */
-#hero{
+.hero{
+
     width: 100%;
-    height: 110vh;
+    height: 100vh;
     background-color: darksalmon;
+}
+/* navbar */
+.right-nav{
+    display: flex;
+    /* align-items: center; */
+}
+.mx-9{
+    margin-left: 8rem !important;
+}
+.mx-8{
+    margin-right:   6rem !important;
 }
 /* TITRE1 */
 h1{
     font-weight: 600;
 }
-.profil h1{
-    font-size:25px;
- }
+
+
 .profil h2{
     font-size:13px;
     font-weight: 300;
 } 
 .A{
-    font-size: 15px;
-    font-weight: 300; 
-    
+    color: black;
+    font-size: 16px;
 } 
-.navbar .A:hover{
+.nav .A:hover{
     color:white;
-    font-weight: 100;
 } 
+
 
 /* tailles icons */
 .f,
@@ -47,26 +56,9 @@ h1{
 font-size: 17px;
 cursor: pointer;
 }
-
-  /*  */
-
-.hero-container{
-margin-top: 10%;
-
-
-
-  }
-  .hero-container h1{
-    font-size: 51px;
-    line-height: 1.2em;
-
-  }
-  .hero-container h2{
-    font-size: 30px;
-  }
+ 
   /* buton reserver */
 .Reserv{
-    
     padding: 1rem 2rem;
     font-size: 0.85rem;
     border-radius: 16px;
@@ -87,7 +79,7 @@ margin-top: 10%;
 .Abouttext h1{
     font-size: 51px;
     line-height: 1.2em; 
-    margin-left: -14%;
+   
     margin-top: 29px;
 }
 .Abouttext h2{
@@ -95,6 +87,19 @@ margin-top: 10%;
     letter-spacing: 0.03em;
     font-family: montserrat,sans-serif;
 }
+.text-over {
+    position: absolute;
+    color: black;
+    margin-top: -129px;
+    margin-left: 29rem;
+  }
+  
+  @media (min-width: 768px) {
+    .text-overlay {
+      display: none;
+    }
+  }
+  
 .Abouttext p{
     line-height: 1.5em;
     font-size: 16px;
