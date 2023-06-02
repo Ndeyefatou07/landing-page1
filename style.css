@@ -34,11 +34,11 @@ h1{
     font-size:13px;
     font-weight: 300;
 } 
-.A{
+.navbar .A{
     color: black;
     font-size: 16px;
 } 
-.nav .A:hover{
+.navbar .A:hover{
     color:white;
 } 
 
@@ -91,8 +91,6 @@ cursor: pointer;
 }
 .services{
     width: 100%;
-    height: 100vh;
-   
 }
 /* h1 services */
 .txtapp{
@@ -158,10 +156,10 @@ object-fit: cover;
   
     margin-bottom: 8%;
 }
+
 /* temoignage */
 .temoignage{
-    width: 100%;
-    height: 100vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -220,6 +218,9 @@ object-fit: cover;
 }
 .N{
     font-weight: 700;
+}
+.footer{
+    width: 100%;
 }
 .h3-cl2{
     color:black;
